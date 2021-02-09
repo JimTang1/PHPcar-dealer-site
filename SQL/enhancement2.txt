@@ -1,0 +1,30 @@
+SQL
+
+carclassification      classificationld   classificationName
+inventory invMake invModel invDescription invlmage invThumbnail
+
+Server Password: arhD7hIBdv2Hg0r4
+
+---------------------INSERT------------
+INSERT INTO client(clientFirstname, clientLastname, clientEmail, clientPassword, clientLevel, comment)
+Values('Tony','stark', 'tony@starkent.com', 'IamIronM@n', 1, 'I am the real Ironman');
+
+-----------------------UPDATE-------------
+UPDATE client SET clientLeveL = 3 WHERE clientFirstname = 'Tony' and clientLastname = 'stark'
+
+------------Modify the "GM Hummer" record---------
+SELECT REPLACE('The Hummer gives you the small interiors with an engine ',
+'small interiors', "'spacious interior'")
+
+
+
+-----------------SELECT SUV---------------------
+SELECT * FROM `carclassification` WHERE classificationName ='SUV'
+
+--------------------DELETE-------------------
+DELETE FROM `client` WHERE clientFirstname = 'Tony'
+DELETE FROM inventory WHERE invMake = 'Jeep' and invModel = 'Wrangler'
+
+-------------------The invImage and invThumbnail update------------------
+UPDATE `inventory` SET `invImage` = concat('/phpmotors',`invImage`)
+UPDATE `inventory` SET `invThumbnail` = concat('/phpmotors',`invThumbnail`)

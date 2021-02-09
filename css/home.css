@@ -1,0 +1,459 @@
+
+.content .introduction{
+    width: 100%
+}
+.content .signup{
+    max-width: 500px;
+    box-shadow: 0 0 20px grey;
+    font-family: cursive;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+#inv-display li{
+    width:300px;
+    border-style: solid;
+    display: inline-block;
+}
+
+#inv-display li h3{
+    font-family: cursive;
+    text-align: center;
+}
+
+
+#inv-display li .car-image{
+    width:200px;
+    height:200px;
+    margin-left: 50px;
+}
+
+#detail-display{
+    display: contents;
+    
+}
+
+#detail-display .Imgs{
+    width:100px;
+    height: 75px;
+    float: left;
+}
+
+#detail-display .Imgs:hover{
+    width:300px;
+    height: 200px;
+    position:absolute;
+    margin-left:-90px;
+    margin-top:-90px;
+    z-index:2
+}
+
+#detail-display .idImg{
+    width:100px;
+    height: 75px;
+}
+
+#detail-display .idImg:hover{
+    width:300px;
+    height: 200px;
+    position:absolute;
+    margin-left:-90px;
+    margin-top:-90px;
+    z-index:2;
+}
+
+
+#detail-display li h2,h3{
+    font-family: cursive;
+    text-align: center;
+}
+
+#detail-display li h1{
+    font-family: cursive;
+}
+
+#detail-display li .car-detail-image{
+    width:500px;
+    height: 500px;
+    margin-left: 105px;
+}
+
+#detail-display1 .screenName{
+    font-family: cursive;
+    border-style: solid;
+    width: 125px;
+    margin-left: 15px;
+    margin-top: -20px;
+    border: 1px solid;
+}
+#detail-display1 .commentArea .comment-reviewText{
+    word-wrap: break-word;
+}
+
+#detail-display .deleteTable{
+    border: solid;
+    width: 900px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+#detail-display .deleteTable form h1{
+    margin-left: 15px;
+    font-family: cursive;
+}
+
+
+#detail-display .deleteTable form h4{
+    margin-left: 15px;
+    font-family: cursive;
+}
+
+#detail-display .deleteTable form .showText{
+    max-width: 800px;
+    word-wrap: break-word;
+}
+
+#detail-display .editTable{
+    font-family: cursive;
+    border: solid;
+    width: 900px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#detail-display1 .reviewText{
+    width: 900px;
+    height: 90px;
+    margin-left: 15px;
+    margin-top: -40px;
+}
+
+#detail-display .editTable form .reviewText{
+    width: 860px;
+    height: 90px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+
+
+#detail-display1 .comment-borad{
+    font-family: cursive;
+    border-style: solid;
+    margin: 0px 30px;
+}
+
+#detail-display1 button{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#detail-display1 .commentArea{
+    margin-left: 30px;
+    font-family: cursive;
+    text-align: left;
+    background-color: bisque;
+    width: 940px;
+    max-width: 940px;
+}
+
+#detail-display1 .commentArea h3{
+    text-align: left;
+}
+
+
+.content .logo span{
+    font-size: 30px;
+    font-family: cursive;
+    padding-left: 150px;
+}
+
+.content .signup .txtb{
+    border: 1px solid gray;
+    margin: -7px 17px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+}
+
+.content .signup .txtb label{
+    display: block;
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.content .signup .txtb input{
+    float: left;
+    width: 80%;
+    margin-left: 30px;
+    border: none; 
+    background: none;
+    outline: none;
+    font-size: 18px;
+}
+
+
+hr{
+    border: 2px solid black;
+}
+
+.content .introduction .ownCar{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.content .introduction .ownCar .top-left{
+    
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.content .introduction .ownCar .top-left h3{
+    color:#4c96d7;
+}
+.content .introduction .ownCar .top-left p{
+    line-height: 1px;
+    color:#4c96d7;
+}
+
+.content .introduction .top-left1{
+    display:none;
+}
+
+
+.content .introduction .img-info{
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    
+    margin-left:50px;
+    /* border: 1px solid black; */
+}
+
+.content .introduction .img-info .fRoll{
+    display: flex;
+    margin-bottom: 30px;
+    /* border: 1px solid black; */
+    text-align: center;
+
+}
+
+.content .introduction .img-info .fRoll .flame{
+    margin-left: 10px;
+    width: 114px;
+    height: 10px;
+    border: 43px solid transparent;
+    background-color: #4c96d7;
+}
+
+.content .introduction .img-info .fRoll .flux{
+    margin-left: 10px;
+    width: 114px;
+    height: 10px;
+    border: 43px solid transparent;
+    background-color: #4c96d7;
+}
+.content .introduction .img-info .sRoll{
+    display: flex;
+    margin-bottom: 30px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.content .introduction .img-info .sRoll .hub{
+    margin-left: 10px;
+    width: 114px;
+    height: 10px;
+    border: 43px solid transparent;
+    background-color: #4c96d7;
+
+}
+
+.content .introduction .img-info .sRoll .bumper{
+    margin-left: 10px;
+    width: 114px;
+    height: 10px;
+    border: 43px solid transparent;
+    background-color: #4c96d7;
+}
+
+.content .introduction .img-info h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+
+}
+
+.content .introduction .car-info h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.content .introduction .car-info{
+    display: inline-block;
+    width: 45%;
+    font-size: 19px;
+    line-height: 2.4;
+    vertical-align: bottom;
+    /* border: 1px solid black; */
+}
+
+
+
+
+
+@media only screen and (max-width: 767px){
+
+    .content .introduction .ownCar img{
+        width:400px;
+    }
+    .content .introduction .ownCar .top-left{
+        text-align: left;
+        position: absolute;
+        top: -35px;
+        left: 9px;
+    }
+
+    .content .introduction .ownCar .top-left h3{
+        color:#4c96d7;
+    }
+    .content .introduction .ownCar .top-left p{
+        line-height: 1px;
+        color:#4c96d7;
+    }
+
+    .content .introduction .ownCar .top-left img{
+        display: none;
+    }
+    .content .introduction .container{
+        display: table;
+    }
+
+    .content .introduction .img-info{
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        
+        margin-left:-20px;
+        /* border: 1px solid black; */
+        display: table-footer-group;
+    }
+
+    .content .introduction .car-info{
+        display: inline-block;
+        width: 100%;
+        font-size: 19px;
+        line-height: 2.4;
+        vertical-align: bottom;
+        /* border: 1px solid black; */
+    }
+
+    .content .introduction .top-left1{
+        display:block;
+        display: flex;
+        justify-content: center;
+        padding-top: 25px;
+    }
+
+    .content .introduction .img-info .fRoll .flame{
+        margin-left: 0px;
+        width: 109px;
+        height: 10px;
+        border: 43px solid transparent;
+        background-color: #4c96d7;
+    }
+    
+    .content .introduction .img-info .fRoll .flux{
+        margin-left: 10px;
+        width: 109px;
+        height: 10px;
+        border: 43px solid transparent;
+        background-color: #4c96d7;
+    }
+    
+    .content .introduction .img-info .sRoll .hub{
+        margin-left: 0px;
+        width: 109px;
+        height: 10px;
+        border: 43px solid transparent;
+        background-color: #4c96d7;
+    
+    }
+    
+    .content .introduction .img-info .sRoll .bumper{
+        margin-left: 10px;
+        width: 109px;
+        height: 10px;
+        border: 43px solid transparent;
+        background-color: #4c96d7;
+    }
+    
+    .content .signup{
+        margin-left: 0px;
+    }
+    #detail-display li .car-detail-image{
+        width:300px;
+        height: 200px;
+        margin-left: 35px;
+    }
+    
+    nav{
+        font-size: 0px;
+    }
+
+    #detail-display .idImg{
+        width:100px;
+        height: 75px;
+    }
+
+    #detail-display1 .reviewText{
+        width: 265px;
+        height: 90px;
+        margin-left: 15px;
+        margin-top: -40px;
+    }
+
+
+    #detail-display1 .commentArea{
+        width: 320px;
+        max-width: 320px;
+    }
+
+    #detail-display1 .commentArea h3{
+        text-align: left;
+        margin-left: -15px;
+    }
+
+    #detail-display .deleteTable{
+        border: solid;
+        width: 345px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    #detail-display .deleteTable form h1{
+        margin-left: 15px;
+        font-family: cursive;
+        font-size: 16px;
+    }
+
+    #detail-display .editTable{
+        width: 326px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+    #detail-display .editTable form .reviewText{
+        width: 265px;
+    }
+
+    #detail-display .deleteTable form .showText{
+        max-width: 300px;
+
+    }
+}
